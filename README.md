@@ -1,10 +1,8 @@
-# oscillatory-stdp-experiments
-Simulations of Phase-Dependent Plasticity and Attractor Dynamics in Spiking Neural Networks.
-# Phase-Dependent Three-Factor Plasticity & Attractor Dynamics
-**Investigating the role of Neural Oscillations in Gated Synaptic Learning and Working Memory.**
+# Phase-Dependent Plasticity, Attractor Dynamics & Embodied AI
+**Investigating Neural Oscillations, Working Memory, and Dual-Process Cognitive Architectures.**
 
 ## 🔬 Overview
-This repository contains two computational neuroscience experiments implementing biologically plausible learning and memory mechanisms in Spiking Neural Networks (SNNs). The simulations explore how temporal dynamics—specifically **Theta oscillations** and **Recurrent loops**—enable complex cognitive functions like signal filtering and working memory.
+This repository contains three computational neuroscience experiments implementing biologically plausible learning, memory, and behavioral mechanisms. The simulations explore how temporal dynamics (Theta oscillations), recurrent loops (Working Memory), and dual-process architectures (Embodied AI) enable complex cognitive functions.
 
 **Author:** Frederick (Fred) Hayes
 **Status:** Complete (Feb 2026)
@@ -39,23 +37,7 @@ A population of LIF neurons with strong local recurrent excitation ($W_{rec} \gg
 * **Robustness:** The memory trace showed **zero decay** over time.
 * **Controllability:** A "Wipe" signal (Inhibitory Pulse) successfully silenced the attractor, demonstrating that the system is stable and controllable, not seizure-prone.
 
----
-
-## 🛠 Usage
-These simulations are self-contained Jupyter Notebooks.
-
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/fehayes/oscillatory-stdp-experiments.git](https://github.com/fehayes/oscillatory-stdp-experiments.git)
-    ```
-2.  Install dependencies:
-    ```bash
-    pip install numpy matplotlib pandas
-    ```
-3.  Run the notebooks:
-    * Open `resonance_learning.ipynb` for the STDP experiments.
-    * Open `working_memory.ipynb` for the Working Memory experiments.
-### Experiment 3: Synthetic Dasein & Embodied AI (`synthetic_dasein.ipynb`)
+### 3. `synthetic_dasein.ipynb` (Embodied AI & Social Friction)
 **Hypothesis:** True continuous learning requires a Dual-Process architecture where heavy, conscious deliberation trains fast, energy-efficient neural reflexes, mimicking the phenomenological transition from "Present-at-Hand" to "Ready-to-Hand."
 
 **The Model:**
@@ -65,4 +47,24 @@ A GridWorld agent equipped with two minds:
 
 **Key Results:**
 * **The Heideggerian Drop:** The agent successfully optimized its metabolic cost by shifting control from the Graph Mind to the Reflex Mind once a confidence threshold (> 0.8) was reached via dopamine reinforcement.
-* **The Cost of Masking:** By introducing an α modifier representing social anxiety or "masking," the simulation successfully quantified the metabolic penalty of over-relying on conscious deliberation in complex social environments. High-friction agents expended significantly more compute units to navigate the same space as low-friction agents.
+* **The Cost of Masking:** By introducing an $\alpha$ modifier representing social anxiety or "masking," the simulation successfully quantified the metabolic penalty of over-relying on conscious deliberation in complex social environments. High-friction agents expended significantly more compute units to navigate the same space as low-friction agents.
+
+---
+
+## 🛠 Usage
+These simulations are self-contained Jupyter Notebooks.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/fehayes/oscillatory-stdp-experiments.git](https://github.com/fehayes/oscillatory-stdp-experiments.git)
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install numpy matplotlib pandas
+    ```
+
+3.  **Run the notebooks:**
+    * Open `resonance_learning.ipynb` for the STDP experiments.
+    * Open `working_memory.ipynb` for the Attractor Dynamics experiments.
+    * Open `synthetic_dasein.ipynb` for the Dual-Process Embodied AI experiments.
